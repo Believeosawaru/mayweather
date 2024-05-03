@@ -62,11 +62,46 @@ a {
     font-weight: 900;
     font-family: "Poppins", sans-serif;
     padding: 4px 10px;
-    margin: 10px;
+    margin: 10px 5px;
     width: 95%;
-    border-radius: 10px;
+    border-radius: 7px;
+    background: rgb(0, 101, 101);
+    color: white;
     border: none;
+}
+.location input::placeholder {
+    color: white;
+    font-weight: 200;
 }
 .location input:focus {
     outline: none;
+}
+.city {
+    background: rgb(0, 71, 71);
+    margin: 10px 15px;
+    padding: 7px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+}
+.city div{
+    margin-left: auto;
+}
+.city span {
+    background: rgb(0, 101, 101);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.temp-svg {
+    fill: lightyellow;
+    width: 15px;
+    margin: 3px;
+    position: absolute;
+    right: 60px;
+}
+.blue {
+    fill: lightblue;
 }
