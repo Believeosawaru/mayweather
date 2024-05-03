@@ -59,7 +59,7 @@ a {
     margin: 10px;
 }
 .location input {
-    font-weight: 900;
+    font-weight: 200;
     font-family: "Poppins", sans-serif;
     padding: 4px 10px;
     margin: 10px 5px;
@@ -71,7 +71,7 @@ a {
 }
 .location input::placeholder {
     color: white;
-    font-weight: 200;
+    font-weight: 100;
 }
 .location input:focus {
     outline: none;
@@ -79,7 +79,7 @@ a {
 .city {
     background: rgb(0, 71, 71);
     margin: 10px 15px;
-    padding: 7px;
+    padding: 10px 7px;
     border-radius: 6px;
     display: flex;
     align-items: center;
@@ -104,4 +104,17 @@ a {
 }
 .blue {
     fill: lightblue;
+}
+.category-btn {
+    width: 80%;
+    background: rgb(156, 256, 256);
+    font-weight: 700;
+    color: black;
+    border: none;
+    margin-block: 10px;
+    padding: 8px 5px;
+    border-radius: 15px;
+}
+.category-btn:hover {
+    cursor: pointer;
 }
